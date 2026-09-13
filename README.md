@@ -1,2 +1,1 @@
-# proxy
-Uploaded using Teddyxcloud
+# tech
