@@ -9,8 +9,7 @@ const TARGETS = {
   '1': process.env.TARGET_1 || 'http://217.160.27.124:3000/api',
   '2': process.env.TARGET_2 || 'http://82.165.215.121:3002/api',
   '3': process.env.TARGET_3 || 'http://82.165.215.121:3000/api',
-  // akuma 👇
-  '4': process.env.TARGET_4 || 'http://82.165.215.121:3003/api',
+  '4': process.env.TARGET_4 || 'http://82.165.215.121:3004/api',
 };
 
 const PROXY_SECRET = process.env.PROXY_SECRET || ''; // optional shared secret
