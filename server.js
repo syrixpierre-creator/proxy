@@ -10,6 +10,7 @@ const TARGETS = {
   '2': process.env.TARGET_2 || 'http://82.165.215.121:3002/api',
   '3': process.env.TARGET_3 || 'http://82.165.215.121:3000/api',
   '4': process.env.TARGET_4 || 'http://82.165.215.121:3004/api',
+  '5': process.env.TARGET_5 || 'http://82.165.215.121:3007/api',
 };
 
 const PROXY_SECRET = process.env.PROXY_SECRET || ''; // optional shared secret
