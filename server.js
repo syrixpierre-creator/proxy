@@ -6,11 +6,8 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 const TARGETS = {
-  '1': process.env.TARGET_1 || 'http://108.175.8.202:3031/api',
-  '2': process.env.TARGET_2 || 'http://108.175.8.202:3030/api',
-  '3': process.env.TARGET_3 || 'http://108.175.8.202:3032/api',
-  '4': process.env.TARGET_4 || 'http://108.175.8.202:3010/api',
-  '5': process.env.TARGET_5 || 'http://108.175.8.202:3011/api',
+  '1': process.env.TARGET_1 || 'http://200.141.31.158:3001/api',
+  '2': process.env.TARGET_2 || 'http://200.141.31.158:3002/api',
 };
 
 const PROXY_SECRET = process.env.PROXY_SECRET || ''; // optional shared secret
