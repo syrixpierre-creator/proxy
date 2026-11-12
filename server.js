@@ -6,8 +6,8 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 const TARGETS = {
-  '1': process.env.TARGET_1 || 'http://200.141.31.158:3002/api',
-  '2': process.env.TARGET_2 || 'http://200.141.31.158:3001/api',
+  '1': process.env.TARGET_1 || 'http://200.141.31.158:3001/api',
+  '2': process.env.TARGET_2 || 'http://200.141.31.158:3002/api',
 };
 
 const PROXY_SECRET = process.env.PROXY_SECRET || ''; // optional shared secret
